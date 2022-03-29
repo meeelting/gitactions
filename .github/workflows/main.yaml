@@ -1,9 +1,7 @@
 name: CI - Build All Platforms
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ master ]
+  pull_request: {}
+  push: { branches: [main] }
 
   # Allows you to run this workflow manually from the Actions Tab
   workflow_dispatch: {}
