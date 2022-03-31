@@ -17,6 +17,10 @@ jobs:
           #- iOS # Build an iOS player.
           #- Android # Build an Android .apk standalone app.
           #- WebGL # WebGL.
+        unityVersion:
+          - 2019.4.35f1
+          - 2020.3.32f1
+          - 2021.2.17f1
         projectPath:
           - gitactions_unity
         testMode:
